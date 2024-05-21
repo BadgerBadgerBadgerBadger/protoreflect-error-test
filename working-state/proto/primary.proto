@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/proto/lang_go/primary";
+option go_package = "github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/working-state/proto/lang_go/primary";
 
 package protoreflect.error.test.primary;
 

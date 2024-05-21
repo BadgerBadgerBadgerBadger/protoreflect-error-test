@@ -1,4 +1,4 @@
-module github.com/BadgerBadgerBadgerBadger/protoreflect-error-test
+module github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/error-state
 
 go 1.22.3
 

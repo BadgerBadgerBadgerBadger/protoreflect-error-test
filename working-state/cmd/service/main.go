@@ -5,8 +5,8 @@ import (
 	"net"
 
 	"github.com/BadgerBadgerBadgerBadger/goplay/pkg/util"
-	"github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/proto/lang_go/dependencies/secondary"
-	"github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/proto/lang_go/primary"
+	"github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/working-state/proto/lang_go/dependencies/secondary"
+	"github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/working-state/proto/lang_go/primary"
 	googleGrpc "google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
