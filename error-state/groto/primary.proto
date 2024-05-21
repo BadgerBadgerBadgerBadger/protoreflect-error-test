@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/error-state/proto/lang_go/primary";
+package protoreflect.error.test.primary;
+
+import "dependencies/secondary/secondary.proto";
+
+service Main {
+  rpc GetPrimary (PrimaryRequest) returns (PrimaryResponse) {}
+}
+
+message PrimaryRequest {
+  secondary.SecondaryMessage primary_request = 1;
+}
+
+message PrimaryResponse {
+  secondary.SecondaryMessage primary_response = 1;
+}

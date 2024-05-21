@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "github.com/BadgerBadgerBadgerBadger/protoreflect-error-test/error-state/proto/lang_go/secondary";
+
+package protoreflect.error.test.secondary;
+
+message SecondaryMessage {
+  string value = 1;
+}
